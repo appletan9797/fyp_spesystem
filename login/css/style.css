@@ -1,0 +1,131 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+html, body{
+    font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+	background:#ffffff;
+	margin: 0;
+}
+p,ul li,ol li{
+	margin:0;
+	font-size:14px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Muli', sans-serif;
+	margin:0;
+}
+ul,label{
+	margin:0;
+	padding:0;
+}
+body a:hover{
+	text-decoration:none;
+}
+input[type="submit"],input[type="reset"],a,.w3l_banner_bottom_grid1 i,.w3layouts_more a i{
+	-webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -ms-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition:0.5s ease-in;
+}
+a:focus{
+	outline:none;
+}
+
+.login-form {
+		width: 340px;
+    	margin: 50px auto;
+	}
+    .login-form form {
+    	margin-bottom: 15px;
+        background: #f7f7f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+    .login-form h2 {
+        margin: 0 0 15px;
+    }
+    .form-control, .btn {
+        min-height: 38px;
+        border-radius: 2px;
+    }
+    .btn {        
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+.cMessage
+{
+	margin: auto;
+	margin-bottom:15px;
+	height: 65px;
+	text-align:center;
+}
+#iAttention
+{
+	background-color:rgba(251,169,152,0.5);
+}
+.cMsgImg
+{
+	width: 30px;
+    height: 40px;
+    float: left;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+.cMsgLine
+{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	padding-top:15px;
+	
+}
+
+/*logintoaccess.php*/
+.cUploadBox
+{
+	margin: auto;
+	width: 50%;
+	height: 300px;
+	background-color:rgba(204,204,204,0.19);
+	margin-top:150px;
+	text-align:center;
+}
+
+#iSubmitted
+{
+	padding-top:15%;
+}
+
+.cButtons
+{
+	margin-top:30px;
+	margin-right:20px;
+	height:30px;
+	width:160px;
+	background:#CCCCCC;
+	color:#999999;
+	cursor:pointer;
+	border:none;
+	outline:none;
+}
+
+.cBtnContainer
+{
+	float:right;
+	margin-right:200px;
+}
+
+.cHeader
+{
+	background: #1D1A1A;
+	color: white;
+	//margin: -10px -8px 10px -10px;
+	padding-left:10px;
+	font-family:"Times New Roman", Times, serif;
+}
