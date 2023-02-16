@@ -1,0 +1,232 @@
+body
+{
+    font-family: "Times New Roman", Times, serif;
+}
+.header
+{
+    background-color: #1D1A1A;
+    color: white;
+    padding: 10px;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: -10px;
+    font-size: 28px;
+}
+
+.profile_icon
+{
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-top: -2px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.profile_name_label
+{
+    float: right;
+}
+
+.title
+{
+    text-align: center;
+}
+
+.unit_name
+{
+    font-size: 21px;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+#spe_selector, #input_type_selector, #section_type_selector, #child_input_type_selector, #child_section_type_selector
+{
+    background-color: #CCCCCC;
+    padding: 10px;
+    width: 120px;
+    margin: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.duedate_text
+{
+	padding: 10px;
+    width: 200px;
+	margin: 10px;
+}
+
+.option
+{
+    background-color: white;
+}
+
+.add_question_button
+{
+    background-color: #F6F4F4;
+	border: none;
+	float: right;
+	padding: 10px 20px;
+	margin: 10px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.reset_button
+{
+    background-color: #E8E2E2;
+	border: none;
+	float: right;
+	padding: 10px 20px;
+	margin: 10px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.save_button
+{
+    background-color: #444E58;
+	color: white;
+	border: none;
+	float: right;
+	padding: 10px 20px;
+	margin: 10px;
+	text-align: center;
+	font-size: 15px;
+}
+
+#question_text, #child_question_text
+{
+    padding: 10px;
+    width: 500px;
+    margin: 10px;
+}
+
+.cQuestion
+{
+	height: 150px;
+    width: 350px;
+    resize: none;
+    overflow: hidden;
+}
+
+.cQuestionContainer
+{
+	overflow:hidden;
+}
+
+.cQuestionCounter
+{
+	float:left;
+	width: 4%;
+}
+
+.cQuestionText
+{
+	float:left;
+}
+
+.cQuestionBtn
+{
+	float:left;
+}
+
+#iErrorDate, #iErrorRecord
+{
+	color:red;
+}
+
+.remove_button
+{
+	cursor:pointer;
+}
+
+/*for smartphone*/
+@media only screen and (max-width: 900px)
+{
+    .header
+    {
+        background-color: #1D1A1A;
+        color: white;
+        padding: 10px;
+        margin-left: -10px;
+        margin-top: -10px;
+        margin-right: -10px;
+        font-size: 15px;
+    }
+
+    .profile_icon
+    {
+        float: right;
+        width: 30px;
+        height: 30px;
+        margin-top: -5px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .title
+    {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .unit_name
+    {
+        font-size: 15px;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+
+    #spe_selector_edit, #input_type_selector, #section_type_selector, #child_input_type_selector, #child_section_type_selector
+    {
+        background-color: #CCCCCC;
+        padding: 5px;
+        width: 100px;
+        margin: 6px;
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    #question_text,  #child_question_text
+    {
+        padding: 5px;
+        width: 250px;
+        margin: 5px;
+    }
+	
+	
+    .add_question_button
+    {
+        background-color: #F6F4F4;
+        border: none;
+        float: right;
+        padding: 10px 20px;
+        margin: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .reset_button
+    {
+        background-color: #E8E2E2;
+        border: none;
+        float: right;
+        padding: 10px 20px;
+        margin: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .save_button
+    {
+        background-color: #444E58;
+		color: white;
+        border: none;
+        float: right;
+        padding: 10px 20px;
+        margin: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+}

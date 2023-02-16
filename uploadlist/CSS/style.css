@@ -1,0 +1,216 @@
+body
+{
+	font-family:"Times New Roman", Times, serif;
+	/*font-family: "Open Sans";
+    font-weight: 500;
+    font-style: normal;*/
+}
+
+.cHeader
+{
+	background: #1D1A1A;
+	color: white;
+	margin: -10px -8px 10px -10px;
+	padding-left:10px;
+	font-family:"Times New Roman", Times, serif;
+}
+
+.cTitle
+{
+	margin: 75px 0 15px 0;
+	padding:10px;
+	text-align:center
+}
+
+.cUploadBox
+{
+	margin: auto;
+	width: 50%;
+	height: 300px;
+	background-color:rgba(204,204,204,0.19);
+}
+
+.cMessage
+{
+	margin: auto;
+	margin-bottom:15px;
+	width: 50%;
+	height: 65px;
+	text-align:center;
+}
+#iAttention
+{
+	background-color:rgba(252,252,97,0.5);
+}
+
+#iConfirm
+{
+	background-color:rgba(212,251,176,0.5);
+}
+	
+#iError
+{
+	background-color:rgba(251,169,152,0.5);
+}
+
+.cMsgLine
+{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	padding-top:15px;
+	
+}
+
+.cMsgImg
+{
+	width: 30px;
+    height: 30px;
+    float: left;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.cMsgLineLess
+{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	padding-top:20px;
+	
+}
+
+.cMsgImgLess
+{
+	width: 35px;
+    height: 45px;
+    float: left;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+#iUploadIcon
+{
+	width: 90px;
+    height: 150px;
+	padding-top:50px;
+}
+
+.cCenter
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#iWord
+{
+	color:#CCCCCC;
+	text-align:center;
+	padding-top:5px;
+	font-size:20px;
+}
+
+#iBtnBrowse
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:30px;
+	height:30px;
+	background:#CCCCCC;
+	color:#999999;
+	cursor:pointer;
+	border:none;
+	outline:none;
+}
+
+#iFileChooser
+{
+	display:none;
+}
+
+.cButtons
+{
+	margin-top:30px;
+	margin-right:20px;
+	height:30px;
+	width:160px;
+	background:#CCCCCC;
+	color:#999999;
+	cursor:pointer;
+	border:none;
+	outline:none;
+}
+
+.cBtnContainer
+{
+	float:right;
+	margin-right:200px;
+}
+
+.cCenterDiv
+{
+	text-align:center;
+}
+
+.cButtonAction:active
+{
+	transform: scale(0.98);
+	box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+}
+
+#iBtnClear
+{
+	background-color: #f6f4f4;
+    border: 1px solid #e2d4d8;
+    color: black;
+}
+
+	#iBtnClear:hover
+	{
+		color: #212529;
+		background-color: #d3d9df;
+		border-color: #cbd3da;
+	}
+
+#iBtnUpload
+{
+	color: #fff;
+    background-color: #444e58;
+    border-color: #444e58;
+}
+	#iBtnUpload:hover
+	{
+		color: #fff;
+		background-color: #333b42;
+		border-color: #2e353b;
+	}
+	
+/*checkrecord.php*/
+table,th,td
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table
+{
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+#iBtnBack
+{
+	color: #fff;
+    background-color: #444e58;
+    border-color: #444e58;
+	margin-top:80px;
+}
+	#iBtnBack:hover
+	{
+		color: #fff;
+		background-color: #333b42;
+		border-color: #2e353b;
+	}

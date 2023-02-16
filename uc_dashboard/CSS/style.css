@@ -1,0 +1,188 @@
+body
+{
+	font-family:"Times New Roman", Times, serif;
+	/*font-family: "Open Sans";
+    font-weight: 500;
+    font-style: normal;*/
+}
+
+.cHeader
+{
+	background: #1D1A1A;
+	color: white;
+	margin: -10px -8px 10px -10px;
+	padding-left:10px;
+	font-family:"Times New Roman", Times, serif;
+}
+
+.cTitle
+{
+	margin:10px;
+	padding:10px;
+	text-align:center
+}
+
+#iBtnUpload
+{
+	color: #fff;
+    background-color: #444e58;
+    border-color: #444e58;
+	margin-left:25px;
+	cursor:pointer;
+	font-size: 15px;
+}
+	#iBtnUpload:hover
+	{
+		color: #fff;
+		background-color: #333b42;
+		border-color: #2e353b;
+	}
+
+.cName
+{
+	margin: auto;
+	width: 50%;
+}
+
+.cUnit
+{
+	margin: 30px auto auto auto;
+	width: 40%;
+	height: 50px;
+	background-color:rgba(204,204,204,0.19);
+	cursor: pointer;
+}
+
+.cNotice
+{
+	border-radius:5px;
+	border-style: solid;
+	border-width: thin;
+	border-color:rgb(253,143,150);
+}
+
+.cLineContainer
+{
+	padding-top:15px;
+}
+
+.cBtnAddSPE
+{
+	background-color: #f6f4f4;
+    border: 1px solid #e2d4d8;
+    color: black;
+	cursor:pointer;
+	margin-left:15px;
+}
+
+	.cBtnAddSPE:hover
+	{
+		color: #212529;
+		background-color: #d3d9df;
+		border-color: #cbd3da;
+	}
+	
+.cBtnCheckGroup
+{
+	background-color: #f6f4f4;
+    border: 1px solid #e2d4d8;
+    color: black;
+	cursor:pointer;
+	margin-left:15px;
+}
+
+	.cBtnCheckGroup:hover
+	{
+		color: #212529;
+		background-color: #d3d9df;
+		border-color: #cbd3da;
+	}
+	
+.cSPEContainer
+{
+	padding-bottom:25px;
+	//display:none;
+}
+
+.cSPERecords
+{
+	padding-top:30px;
+}
+
+.cSPEHandler
+{
+	height: 50px;
+    width: 75px;
+    padding-right: 24px;
+	//padding-left:25px;
+	cursor:pointer;
+}
+
+.spename
+{
+	padding-right:24px;
+}
+
+.movedown
+{
+	margin-bottom:25px;
+}
+
+.cToggleIcon
+{
+	height:25px;
+	width:25px;
+	float: right;
+    margin-top: -5px;
+}
+
+/*displaygroup.php*/
+table,th,td
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table
+{
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+td
+{
+	text-align:center;
+}
+	
+#iBtnBack
+{
+	color: #fff;
+    background-color: #444e58;
+    border-color: #444e58;
+	margin-top:80px;
+}
+	#iBtnBack:hover
+	{
+		color: #fff;
+		background-color: #333b42;
+		border-color: #2e353b;
+	}
+
+.cButtons
+{
+	margin-top:30px;
+	margin-right:20px;
+	height:30px;
+	width:160px;
+	background:#CCCCCC;
+	color:#999999;
+	cursor:pointer;
+	border:none;
+	outline:none;
+}
+
+.cBtnContainer
+{
+	float:right;
+	margin-right:200px;
+}
